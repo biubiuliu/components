@@ -3,6 +3,7 @@
     <div class="left_box">d</div>
     <el-container>
       <el-header>header</el-header>
+      <el-header class="header">header</el-header>
       <el-main>
         <canvas-card />
       </el-main>
@@ -30,6 +31,11 @@ export default {
 }
 .el-header {
   background-color: #b3c0d1;
+  color: #333;
+  line-height: 60px;
+}
+.header {
+  background-color: #7782c291;
   color: #333;
   line-height: 60px;
 }
